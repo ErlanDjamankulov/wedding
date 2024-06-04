@@ -1,0 +1,40 @@
+Date: 4/6/2024
+Time: 18:1
+Phone Number: +996701683003
+Message: Name: ЭрланMessage: Конечно придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:39
+Phone Number: +996701683003
+Message: Name: ЭрланMessage: Конечно придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:39
+Phone Number: +996701683003
+Message: Name: ЭрланMessage: Конечно придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:43
+Phone Number: +996701683003
+Message: Name: МирбекMessage: не придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:45
+Phone Number: +996700866874
+Message: Name: МирбекMessage: не придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:49
+Phone Number: +996700866874
+Message: Name: МирбекMessage: не придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 18:51
+Phone Number: +996700866874
+Message: Name: НурбекMessage: придуAttending: Yes
+--------------------
+Date: 4/6/2024
+Time: 19:10
+Phone Number: +996700866874
+Message: Name: Эрлан2Message: Конечно приду1Attending: Yes
+--------------------
