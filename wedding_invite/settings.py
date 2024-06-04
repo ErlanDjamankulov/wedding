@@ -86,8 +86,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'wedding_invite.wsgi.application'
 
 
-Database
-https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 if DOCKER_STARTUP:
     DATABASES = {
         "default": {
