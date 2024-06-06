@@ -61,13 +61,13 @@ class Time(models.Model):
 class Guest(models.Model):
 
     fullname = models.CharField(
-        _('Имя первого гостя'), max_length=64, help_text=_('Введите имя'), unique=True
+        _('Имя первого гостя'), max_length=128, help_text=_('Введите имя'),default=''
     )
     fullname2 = models.CharField(
-        _('Имя второго гостя'),blank=True,null=True,max_length=64, help_text=_('Введите имя'), unique=True
+        _('Имя второго гостя'),blank=True,null=True,max_length=64, help_text=_('Введите имя'),
     )
     fullname3 = models.CharField(
-        _('Имя третьего гостя'),blank=True,null=True, max_length=64, help_text=_('Введите имя'), unique=True
+        _('Имя третьего гостя'),blank=True,null=True, max_length=64, help_text=_('Введите имя'),
     )
     is_confirm_yes = models.BooleanField("Приду", default=False)
     is_confirm_no = models.BooleanField("Не приду", default=False)
@@ -79,6 +79,10 @@ class Guest(models.Model):
         _("Дата создания"),
         auto_now_add=True,
         help_text=_("Дата и время создания записи"),
+    )
+
+    text = models.TextField(
+        _("Пожелания молодоженам"), help_text=_("Введите текст пожелания")
     )
 
     def __str__(self):
