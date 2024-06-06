@@ -43,6 +43,7 @@ if SERVER_IP == "":
 
 
 INSTALLED_APPS = [
+    "jazzmin",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,6 +53,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'invite',
     "corsheaders",
+    'drf_yasg'
+
 ]
 
 MIDDLEWARE = [
@@ -163,3 +166,49 @@ EMAIL_HOST_ADMIN = os.getenv("EMAIL_ADMIN")
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_UI_TWEAKS = {
+    "navbar_small_text": False,
+    "footer_small_text": True,
+    "body_small_text": False,
+    "brand_small_text": False,
+    "brand_colour": "navbar-danger",
+    "accent": "accent-primary",
+    "navbar": "navbar-dark",
+    "no_navbar_border": True,
+    "navbar_fixed": True,
+    "layout_boxed": False,
+    "footer_fixed": True,
+    "sidebar_fixed": True,
+    "sidebar": "sidebar-dark-primary",
+    "sidebar_nav_small_text": False,
+    "sidebar_disable_expand": True,
+    "sidebar_nav_child_indent": True,
+    "sidebar_nav_compact_style": True,
+    "sidebar_nav_legacy_style": True,
+    "sidebar_nav_flat_style": True,
+    "theme": "superhero",
+    "dark_mode_theme": "superhero",
+    "button_classes": {
+        "primary": "btn-primary",
+        "secondary": "btn-secondary",
+        "info": "btn-info",
+        "warning": "btn-warning",
+        "danger": "btn-danger",
+        "success": "btn-success",
+    },
+    "actions_sticky_top": True,
+}
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Wedding",
+    "site_header": "Wedding",
+    "welcome_sign": "Добро пожаловать в административную панель Wedding",
+    "changeform_format": "horizontal_tabs",
+    "related_modal_active": True,
+    "show_sidebar": True,
+    "navigation_expanded": False,
+    "searchbar_placeholder": "Поиск...",
+    "searchbar_model_name": "Поиск по моделям...",
+    "searchbar_model_field_name": "Поиск по полям...",
+}
